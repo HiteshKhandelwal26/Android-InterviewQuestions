@@ -128,7 +128,7 @@ Android Interview Questions and Answers:
 - Scopes in Kotlin Coroutines Used in Android 
 - What is Coroutine Context?
 - Launch vs Async in Kotlin Coroutines
-- - How to Implement Debounce Using Coroutines?
+- How to Implement Debounce Using Coroutines?
 - Kotlin code snippet demonstrating how to run two coroutines in series and parallel
 - yield in Kotlin Coroutines
 - Delegates in Kotlin
@@ -146,3 +146,36 @@ Android Interview Questions and Answers:
 - Coroutines job.cancel() vs scope.cancel()
 
 ## Android 
+Android Interview Questions and Answers:
+
+### Base
+- Why does an Android App lag?
+- What is Context? How is it used? - Context In Android Application
+- Tell all the Android application components
+- What is the project structure of an Android Application?
+- What is AndroidManifest.xml?
+- What is the Application class?
+
+### Activity and Fragment
+- Why is it recommended to use only the default constructor to create a Fragment?
+- What is Activity and its lifecycle?
+- What is the difference between onCreate() and onStart()
+- When only onDestroy is called for an activity without onPause() and onStop()?
+- Why do we need to call setContentView() in onCreate() of Activity class?
+- What is onSaveInstanceState() and onRestoreInstanceState() in activity?
+- What is Fragment and its lifecycle?
+- What are "launchMode"?
+- What is the difference between a Fragment and an Activity? Explain the relationship between the two
+- When should you use a Fragment rather than an Activity?
+- When you have some UI components to be used across various activities
+- When multiple views can be displayed side by side just like ViewPager
+- What is the difference between FragmentPagerAdapter vs FragmentStatePagerAdapter?
+- - FragmentPagerAdapter: Each fragment visited by the user will be stored in the memory but the view will be destroyed. When the page is revisited, then the view will be created not the instance of the fragment.
+  - - FragmentStatePagerAdapter: Here, the fragment instance will be destroyed when it is not visible to the user, except the saved state of the fragment.
+- What is the difference between adding/replacing fragment in backstack?
+- How would you communicate between two Fragments?
+- What is retained Fragment?
+- What is the purpose of addToBackStack() while commiting fragment transaction?
+  By calling addToBackStack(), the replace transaction is saved to the back stack so the user can reverse the transaction and bring back the previous fragment by pressing the Back button.
+  
+### View
