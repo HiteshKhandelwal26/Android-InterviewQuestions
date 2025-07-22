@@ -1,13 +1,14 @@
 # Android Interview Questions
-Your Cheatsheet For Android Interview
+ ##Your Cheatsheet For Android Interview
 
-## Hi All,
+### Hi All,
 
-## Hi, I'm Hitesh Khandelwal, an Android Mobile Application Developer with over a decade of hands-on experience building mobile apps across diverse domains including mobile banking, automotive, telecom, and business applications.
+### Hi, I'm Hitesh Khandelwal, an Android Mobile Application Developer with over a decade of hands-on experience building mobile apps across diverse domains including mobile banking, automotive, telecom, and business applications.
 
-## I'm passionate about sharing knowledge through open-source contributions, technical blogs, and videos.
+### I'm passionate about sharing knowledge through open-source contributions, technical blogs, and videos.
 
-## This page is created as part of my effort to compile the most commonly asked Android interview questions, aimed at helping fellow Android developers prepare and grow in their careers.
+### This page is created as part of my effort to compile the most commonly asked Android interview questions, aimed at helping fellow Android developers prepare and grow in their careers.
+
 
 
 # Contents - Android Interview Questions
