@@ -56,11 +56,93 @@
 ## Kotlin Coroutines
 Topics you should know in Kotlin Coroutines for Android Interview:
 
-coroutines
-suspend
-launch, async-await, withContext
-dispatchers
-scope, context, job
-lifecycleScope, viewModelScope, GlobalScope
-suspendCoroutine, suspendCancellableCoroutine
-coroutineScope, supervisorScope
+- coroutines
+- suspend
+- launch, async-await, withContext
+- dispatchers
+- scope, context, job
+- lifecycleScope, viewModelScope, GlobalScope
+- suspendCoroutine, suspendCancellableCoroutine
+- coroutineScope, supervisorScope
+
+## Kotlin Flow API
+Topics you should know in Kotlin Flow API for Android Interview:
+
+- Flow Builder, Operator, Collector
+- flowOn, dispatchers
+- Operators such as filter, map, zip, flatMapConcat, retry, debounce, distinctUntilChanged, flatMapLatest
+- Terminal operators
+- Cold Flow vs Hot Flow
+- StateFlow, SharedFlow, callbackFlow, channelFlow
+
+ ## Kotlin
+Android Interview Questions and Answers:
+
+- What is the advantage of using const in Kotlin?
+- When to use lateinit keyword used in Kotlin?
+- What is inline function in Kotlin?
+- What are companion objects in Kotlin?
+- Extension functions
+- What is a data class in Kotlin?
+- Remove duplicates from an array in Kotlin
+- What is a JvmStatic Annotation in Kotlin?
+- What is a JvmField Annotation in Kotlin?
+- What is a JvmOverloads Annotation in Kotlin?
+- noinline in Kotlin
+- crossinline in Kotlin
+- scope functions in Kotlin
+- What is a reified keyword in Kotlin?
+- lateinit vs lazy in Kotlin
+- What is an init block in Kotlin?
+- Difference between == and === in Kotlin
+- Advantage of using const in Kotlin
+- What are higher-order functions in Kotlin?
+- Write a function(Higher-Order Function) that returns a function.
+- What are Lambdas in Kotlin
+- AssociateBy
+- Open keyword in Kotlin
+- Companion object in Kotlin
+- internal visibility modifier in Kotlin
+- partition - filtering function in Kotlin
+- Infix notation in Kotlin
+- How does the Kotlin Multiplatform work?
+- Suspending vs Blocking in Kotlin Coroutines
+- What is runBlocking in Coroutines?
+- What is the meaning of structured concurrency in Kotlin Coroutines?
+- String vs StringBuffer vs StringBuilder
+- What is the difference between val and var?
+- How to check if a lateinit variable has been initialized?
+- How to do lazy initialization of variables in Kotlin?
+- What are the visibility modifiers in Kotlin?
+- What is the equivalent of Java static methods in Kotlin?
+- How to create a Singleton class in Kotlin?
+- What is the difference between open and public in Kotlin?
+- apply scope function and its use cases
+- let scope function and its use cases
+- Explain the use-case of let, run, with, also, apply in Kotlin
+- How to choose between apply and with?
+- Difference between List and Array types in Kotlin
+- What are Labels in Kotlin?
+- What are Coroutines in Kotlin? 
+- What is Coroutine Scope?
+- Scopes in Kotlin Coroutines Used in Android 
+- What is Coroutine Context?
+- Launch vs Async in Kotlin Coroutines
+- - How to Implement Debounce Using Coroutines?
+- Kotlin code snippet demonstrating how to run two coroutines in series and parallel
+- yield in Kotlin Coroutines
+- Delegates in Kotlin
+- stateIn vs shareIn in Kotlin Flow
+- flatMapConcat, flatMapMerge, and flatMapLatest in Kotlin Flow
+- collect vs collectLatest in Kotlin Flow
+- Thread.sleep() vs delay() in Kotlin
+- Explain inline classes in Kotlin
+- Sealed Classes in Kotlin
+- Tell about the Collections in Kotlin
+- What does ?: do in Kotlin? (Elvis Operator)
+- timeouts in Kotlin Coroutines
+- How do you combine multiple coroutine results?
+- What is a Job in Coroutines?
+- Coroutines job.cancel() vs scope.cancel()
+
+## Android 
