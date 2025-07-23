@@ -179,3 +179,49 @@ Android Interview Questions and Answers:
   By calling addToBackStack(), the replace transaction is saved to the back stack so the user can reverse the transaction and bring back the previous fragment by pressing the Back button.
   
 ### View
+- What is a Canvas? - Learn from here
+- What is a SurfaceView?
+- Relative Layout vs Linear Layout
+- Tell about Constraint Layout optimization
+- Do you know what is the view tree? How can you optimize its depth?
+- Optimizing layouts in Android
+- What is View in Android?
+- Difference between View.GONE and View.INVISIBLE?
+- Can you a create custom view? How?
+- What are ViewGroups and how they are different from the Views?
+  View: View objects are the basic building blocks of User Interface(UI) elements in Android. View is a simple rectangle box which responds to the user’s actions. Examples are   EditText, Button, CheckBox etc. View refers to the android.view.View class, which is the base class of all UI classes.
+ViewGroup: ViewGroup is the invisible container. It holds View and ViewGroup. For example, LinearLayout is the ViewGroup that contains Button(View), and other Layouts also. ViewGroup is the base class for Layouts.
+
+### Dialogs and Toasts
+- What is Dialog in Android?
+- What is Toast in Android?
+- What the difference between Dialog and Dialog Fragment?
+  
+### Displaying Lists of Content
+- What is the difference between ListView and RecyclerView?
+- How does the RecyclerView work?
+- RecyclerView Optimization - Scrolling Performance Improvement
+- Optimizing Nested RecyclerView
+- How does RecyclerView improve performance over ListView?
+- What are the components of a RecyclerView?
+- Explain the role of RecyclerView.Adapter and RecyclerView.ViewHolder
+- What is a LayoutManager in RecyclerView?
+- How do you handle multiple view types in a single RecyclerView?
+- What is DiffUtil and how does it improve RecyclerView performance?
+- What is the purpose of RecyclerView.setHasFixedSize(true)?
+- How do you update a specific item in RecyclerView?
+- What is SnapHelper?
+
+### Intents and Broadcasting
+- What is Intent?
+- What is an Implicit Intent?
+- What is an Explicit Intent?
+- What is a BroadcastReceiver?
+- What is a Sticky Intent?
+Sticky Intents allows communication between a function and a service. sendStickyBroadcast() performs a sendBroadcast(Intent) known as sticky, i.e. the Intent you are sending stays around after the broadcast is complete, so that others can quickly retrieve that data through the return value of registerReceiver(BroadcastReceiver, IntentFilter). For example, if you take an intent for ACTION_BATTERY_CHANGED to get battery change events: When you call registerReceiver() for that action — even with a null BroadcastReceiver — you get the Intent that was last Broadcast for that action. Hence, you can use this to find the state of the battery without necessarily registering for all future state changes in the battery.
+- Describe how broadcasts and intents work to be able to pass messages around your app?
+- What is a PendingIntent?
+If you want someone to perform any Intent operation at future point of time on behalf of you, then we will use Pending Intent.
+What are the different types of Broadcasts? - Learn from here
+
+### Services
